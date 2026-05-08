@@ -10,6 +10,15 @@
 
 <h1 align="center">Vibe - Transcribe on your own!</h1>
 
+> **🚀 Fork Features** — This fork extends Vibe with:
+> - **Cloud Transcription** — Groq, OpenAI, ElevenLabs API support alongside local sona server
+> - **Type at Cursor** — auto-type transcription results at the cursor position (Windows)
+> - **Auto-Save Transcripts** — save transcription files automatically to a configurable folder
+> - **Global Hotkey Improvements** — toggle mode (press to start/stop), key recorder UI, RightCtrl native hook (Windows)
+> - **Clipboard Paste Fix** — `Ctrl+V` paste instead of char-by-char typing, fixes `\n` sending Enter in chat apps
+>
+> See [PR to upstream](https://github.com/zorgoalex/vibe/pull/new/feat/type-at-cursor-and-auto-save) for full details.
+
 <p align="center">
   <strong>⌨️ Transcribe audio / video offline using OpenAI Whisper</strong>
   <br/>
